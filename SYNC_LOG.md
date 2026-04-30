@@ -64,3 +64,14 @@
 - Confirmed `--turbo-kv` mandatory for >14B models.
 - Confirmed `--stream-experts` for MoE models enables >100B inference via NVMe.
 - Created 4-tier architecture (Gateway, Cache, Engines, Proving Ground) — now simplified.
+
+---
+
+## 2026-04-30 — Git Repository Initialization
+
+### What Was Accomplished
+- **Initialized** new git repository in `llm-gateway/`.
+- **Converted** `swiftlm/` into a git submodule pointing to `SharpAI/swiftlm`.
+- **Preserved** local audit remediations (swap monitoring, MoE-aware memory budgeting) within the submodule.
+- **Pushed** initial commit to `https://github.com/roydsouza/llm-gateway`.
+- **Verified** build integrity with the new submodule structure.
