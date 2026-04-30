@@ -1,0 +1,6 @@
+*.log
+.DS_Store
+.swiftlm.pid
+scratch/
+tmp/
+swiftlm/.build/

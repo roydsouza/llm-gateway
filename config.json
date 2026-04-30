@@ -1,0 +1,27 @@
+{
+  "engine": "swiftlm",
+  "binary": "./swiftlm/.build/release/swiftlm",
+  "port": 8000,
+  "model": "/Users/rds/.cache/huggingface/hub/models--mlx-community--Qwen3.5-35B-A3B-4bit/snapshots/1e20fd8d42056f870933bf98ca6211024744f7ec",
+  "model_name": "qwen3.5-35b-a3b-4bit",
+  "model_architecture": "Gated DeltaNet + MoE (256 experts, 3B active / 35B total)",
+  "flags": {
+    "thinking": true,
+    "stream_experts": true,
+    "ssd_prefetch": true,
+    "turbo_kv": true,
+    "prefill_size": 256,
+    "ctx_size": 8192,
+    "repeat_penalty": 1.15,
+    "top_k": 40,
+    "min_p": 0.05,
+    "temp": 0.6,
+    "parallel": 1
+  },
+  "hardware": {
+    "chip": "Apple M5",
+    "memory_gb": 24,
+    "memory_type": "unified"
+  },
+  "_note": "Source of truth for runtime flags is gateway.sh. This file is metadata for agents."
+}

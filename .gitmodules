@@ -1,0 +1,3 @@
+[submodule "swiftlm"]
+	path = swiftlm
+	url = https://github.com/SharpAI/swiftlm
