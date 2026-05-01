@@ -8,6 +8,7 @@
 
 | Model | Architecture | Params (Total / Active) | Disk | HF Cache Path |
 |:---|:---|:---|:---|:---|
+| **qwen3.6-35b-a3b-4bit** | Gated DeltaNet + MoE (256 experts) | 35B / 3B active | 20 GB | `~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit` |
 | **qwen3.5-35b-a3b-4bit** | Gated DeltaNet + MoE (256 experts) | 35B / 3B active | 20 GB | `~/.cache/huggingface/hub/models--mlx-community--Qwen3.5-35B-A3B-4bit` |
 | **gemma-4-26b-a4b-it-4bit** | MoE (128 experts, top-k 8) | 26B / 4B active | 15 GB | `~/.cache/huggingface/hub/models--mlx-community--gemma-4-26b-a4b-it-4bit` |
 

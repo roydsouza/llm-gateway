@@ -12,9 +12,12 @@
       (Inspired by the qualitative framework from the former llm-proving-ground.)
 - [x] **Evaluate Qwen3.5-35B-A3B** — Test as a potential successor to Gemma 4 for the
       Local Skeptic role.
+- [x] **Evaluate Qwen3.6-35B-A3B** — Migrate from 3.5 to 3.6 for improved agentic performance
+      and longer native context support.
       Rationale: 3B active params (vs 26B/4B), Gated DeltaNet (RNN-hybrid) for long-context
       efficiency, native thinking mode support (`--thinking`), and diverse architecture
       biases for adversarial auditing.
+      **Result:** ~11.5 t/s throughput on M5 24GB. Validated SSD streaming parity.
 - [ ] **OpenRouter Integration** — Investigate OpenRouter as a cloud fallback for models too large for local inference.
 
 ## SwiftLM Optimization Tasks (from 2026-04-29 audit)

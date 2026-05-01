@@ -2,9 +2,9 @@
   "engine": "swiftlm",
   "binary": "./swiftlm/.build/release/swiftlm",
   "port": 8000,
-  "model": "/Users/rds/.cache/huggingface/hub/models--mlx-community--Qwen3.5-35B-A3B-4bit/snapshots/1e20fd8d42056f870933bf98ca6211024744f7ec",
-  "model_name": "qwen3.5-35b-a3b-4bit",
-  "model_architecture": "Gated DeltaNet + MoE (256 experts, 3B active / 35B total)",
+  "model": "/Users/rds/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46",
+  "model_name": "qwen3.6-35b-a3b-4bit",
+  "model_architecture": "Gated DeltaNet + MoE (256 experts, 3B active / 35B total / 516B sparse)",
   "flags": {
     "thinking": true,
     "stream_experts": true,

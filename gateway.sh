@@ -12,7 +12,7 @@ LOG_FILE="${SCRIPT_DIR}/swiftlm.log"
 
 # Defaults (overridden by config.json if present)
 PORT=8000
-MODEL_PATH="/Users/rds/.cache/huggingface/hub/models--mlx-community--Qwen3.5-35B-A3B-4bit/snapshots/1e20fd8d42056f870933bf98ca6211024744f7ec"
+MODEL_PATH="/Users/rds/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46"
 
 # Read config.json if present
 if [[ -f "$CONFIG" ]]; then

@@ -13,6 +13,17 @@ Performance data for SwiftLM on Apple M5 (24GB unified memory).
 
 ## SwiftLM Leaderboard
 
+### Qwen 3.5 MoE (35B-A3B, 4-bit)
+
+| Date | Profile | Tokens/sec | TTFT | VRAM | Context | Notes |
+|:---|:---|:---|:---|:---|:---|:---|
+| 2026-05-01 | **Prefetch** | 11.56 t/s | 0.53s | 3.7 GB | 8k | Qwen 3.6: `--stream-experts --ssd-prefetch --thinking` |
+| 2026-04-30 | **TurboQuant** | 11.33 t/s | 0.51s | 3.7 GB | 8k | Qwen 3.5: `--stream-experts --turbo-kv --thinking` |
+| 2026-04-30 | **Prefetch** | 11.00 t/s | 0.55s | 3.7 GB | 8k | Qwen 3.5: `--stream-experts --ssd-prefetch --thinking` |
+
+> [!TIP]
+> **Qwen 3.5** provides highly stable throughput (~11 t/s) regardless of profile. The **Prefetch** mode is recommended for agentic reasoning to ensure responsive multi-turn interactions.
+
 ### Gemma 4 MoE (26B-A4B-IT, 4-bit)
 
 | Date | Profile | Tokens/sec | TTFT | VRAM | Context | Notes |
